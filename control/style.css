@@ -1,0 +1,71 @@
+    body {
+      font-family: sans-serif;
+    }
+  
+    .main {
+      border: 1px solid black;
+      box-shadow: 10px 10px 5px #888;
+      border-radius: 12px;
+      padding: 20px;
+      background-color: #ddd;
+      margin: 25px;
+      width: 450px;
+      margin-left:auto;
+      margin-right:auto;  
+    }
+    
+    .logo {
+     	height:50vh;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding: 15px;
+    }
+    
+    .container {
+      -webkit-perspective: 300; perspective: 300;
+    }
+
+
+body{
+	text-align: center;
+	background: url('bg.jpg');
+  background-size: cover;
+}
+#verCodeForm{
+	margin-top: 20%;
+}
+
+#verCodeForm label{
+  margin-top: 10vh;
+	font-size: 2em;
+  color: white;
+}
+#verCodeForm .password{
+	text-align: center;
+	margin-top: 10%;
+	width: 70%;
+	height: 10vh;
+	font-size:2em;
+	border: black 5px solid;
+}
+#verCodeForm button{
+  color: #fff;
+  background-color: #e74c3c;
+  border-left:solid 1px #ee897f;
+  box-shadow: inset 0px 1px 0px #e98a80, 0px 5px 0px #c0392b, 0px 10px 5px rgba(39, 39, 39, 0.8);
+	margin-top: 30px;
+  border:0;
+	width: 50%;
+  padding: 10px;
+	font-size: 2em;
+}
+
+.notice{
+	font-size: 1em;
+	position: absolute;
+	bottom: 20%;
+	left: 20%;
+	width: 60%;
+	background-color: rgba(255,255,255,.8);
+}
